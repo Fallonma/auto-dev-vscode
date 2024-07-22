@@ -120,6 +120,7 @@
 							"openai",
 							"qianfan",
 							"tongyi",
+							"deepseek",
 							"zhipuai",
 							"ollama"
 						],
@@ -144,6 +145,11 @@
 								"title": "QWen turbo",
 								"provider": "tongyi",
 								"model": "qwen-turbo"
+							},
+							{
+								"title": "Deepseek chat",
+								"provider": "deepseek",
+								"model": "deepseek-chat"
 							},
 							{
 								"title": "ERNIE-Bot turbo",
@@ -185,6 +191,7 @@
 							"openai",
 							"qianfan",
 							"tongyi",
+							"deepseek",
 							"ollama"
 						],
 						"default": "ollama",
@@ -512,6 +519,23 @@
 						"default": true,
 						"description": "%configuration.tongyi.enableSearch.description%",
 						"order": 16
+					},
+					"autodev.deepseek.apiKey": {
+						"type": "string",
+						"description": "%configuration.deepseek.apiKey.description%",
+						"markdownDescription": "%configuration.deepseek.apiKey.markdownDescription%",
+						"order": 31
+					},
+					"autodev.deepseek.model": {
+						"type": "string",
+						"enum": [
+							"deepseek-chat",
+							"deepseek-coder"
+
+						],
+						"default": "deepseek-chat",
+						"description": "%configuration.deepseek.model.description%",
+						"order": 32
 					},
 					"autodev.zhipuai.apiKey": {
 						"type": "string",

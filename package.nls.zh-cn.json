@@ -55,6 +55,10 @@
 	"configuration.tongyi.model.description": "模型名称",
 	"configuration.tongyi.enableSearch.description": "启用互联网搜索",
 
+	"configuration.deepseek.apiKey.description": "Deepseek 的 API Key",
+	"configuration.deepseek.apiKey.markdownDescription": "Deepseek 的 API Key。",
+	"configuration.deepseek.model.description": "模型名称",
+
 	"configuration.zhipuai.apiKey.description": "智谱 AI 的 API Key。",
 	"configuration.zhipuai.apiKey.markdownDescription": "智谱 AI 的 API Key。参考 [智谱 AI 开放平台](https://open.bigmodel.cn/dev/api).",
 	"configuration.zhipuai.model.description": "模型名称",

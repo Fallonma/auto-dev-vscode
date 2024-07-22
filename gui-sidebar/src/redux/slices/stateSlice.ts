@@ -146,6 +146,11 @@ const initialState: State = {
         model: "qwen-turbo",
       },
       {
+        title: "Deepseek Chat",
+        provider: "deepseek",
+        model: "deepseek-chat",
+      },
+      {
         title: "Custom OpenAI Compatible Model",
         provider: "openapi",
         model: "custom",

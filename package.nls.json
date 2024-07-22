@@ -65,6 +65,10 @@
 	"configuration.tongyi.model.description": "Model name to use",
 	"configuration.tongyi.enableSearch.description": "Enable Search Enhancement",
 
+	"configuration.deepseek.apiKey.description": "Deepseek API Key",
+	"configuration.deepseek.apiKey.markdownDescription": "Deepseek API Key.",
+	"configuration.deepseek.model.description": "Model name to use",
+
 	"configuration.zhipuai.apiKey.description": "ZhipuAI API Key",
 	"configuration.zhipuai.apiKey.markdownDescription": "ZhipuAI API Key. See [智谱 AI 开放平台](https://open.bigmodel.cn/dev/api).",
 	"configuration.zhipuai.model.description": "Model name to use",

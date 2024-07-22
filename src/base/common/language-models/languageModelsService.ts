@@ -10,6 +10,7 @@ import { OllamaLanguageModelProvider } from './providers/ollamaProvider';
 import { OpenAILanguageModelProvider } from './providers/openaiProvider';
 import { TongyiLanguageModelProvider } from './providers/TongyiProvider';
 import { WenxinLanguageModelProvider } from './providers/WenxinProvider';
+import { DeepseekLanguageModelProvider } from './providers/deepseekProvider';
 import { ZhipuAILanguageModelProvider } from './providers/zhipuaiProvider';
 import { LocalEmbeddingsProvider } from "../../../code-search/embedding/LocalEmbeddingsProvider";
 
@@ -39,6 +40,7 @@ export class LanguageModelsService {
 			['openai', new OpenAILanguageModelProvider(configService)],
 			['qianfan', new WenxinLanguageModelProvider(configService)],
 			['tongyi', new TongyiLanguageModelProvider(configService)],
+			['deepseek', new DeepseekLanguageModelProvider(configService)],
 			['zhipuai', new ZhipuAILanguageModelProvider(configService)],
 			['ollama', new OllamaLanguageModelProvider(configService)],
 			// ['transformers', new HuggingFaceTransformersLanguageModelProvider(configService)],
